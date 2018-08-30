@@ -14,9 +14,17 @@ To install the dependencies:
 npm install
 ```
 
-To run in development
+To run in development:
 ```
 npm run dev
+```
+To run the server:
+```
+npm run server
+```
+To run the client:
+```
+npm run client
 ```
 You have to edit the MongoDB URI in keys.js with your MongoDB URI
 
