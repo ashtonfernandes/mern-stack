@@ -18,7 +18,7 @@ To run in development
 ```
 npm run dev
 ```
-You have to edit the MongoDB URI in key.js with your MongoDB URI
+You have to edit the MongoDB URI in keys.js with your MongoDB URI
 
 ## Built With
 
