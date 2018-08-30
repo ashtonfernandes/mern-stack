@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-These are the different commands that you could use to run this development enviornment
+To run this application:
 
 ```
 npm install
