@@ -9,7 +9,7 @@ import {
     NavLink
 } from 'reactstrap';
 
-class AppNavbar extends Component {
+class Header extends Component {
     constructor(props) {
         // need super to call the parent's class constructor
         super(props);
@@ -47,4 +47,4 @@ class AppNavbar extends Component {
     }
 }
 
-export default AppNavbar;
+export default Header;

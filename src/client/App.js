@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AppNavbar from './components/AppNavbar';
-// import './App.css';
+import Header from './components/Header/Header';
+import List from './components/List/List';
+import store from './store';
+import { Provider } from 'react-redux';
+import './App.css';
 
 export default class App extends Component {
   constructor(props) {
@@ -9,10 +12,13 @@ export default class App extends Component {
   }
 
   render() {    
-    return (      
-      <div>
-        <AppNavbar />
-      </div>
+    return (   
+      <Provider store={store}>   
+        <div>
+          <Header />
+          <List />
+        </div>
+      </Provider>
     )
   }
 }

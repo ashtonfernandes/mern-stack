@@ -35,6 +35,8 @@ You have to edit the MongoDB URI in keys.js with your MongoDB URI
 * [ReactJS](https://reactjs.org/) - The JavaScript library used for building the user interfaces
 * [NodeJS](https://nodejs.org/en/) - JavaScript run-time environment
 * [Webpack](https://webpack.js.org/) - Module bundler to bundle JavaScript files for usage in the browser
+* [Bootstrap](https://getbootstrap.com/) - Front-end framework for designing websites and web applications
+* [Reactstrap](https://reactstrap.github.io/) - React Bootstrap components
 
 ## License
 
